@@ -18,8 +18,6 @@
   --font-main: Aachen, 'Bree Serif', 'Times New Roman';
 }
 
-* {}
-
 html {
   scroll-behavior: smooth;
 }
@@ -96,10 +94,6 @@ html {
 	font-size: 16px;
 }
 
-.texto-copyright {}
-
-.texto-desenvolvido-por {}
-
 .link-desenvolvedor {
 	color: #FFF;
 	text-decoration: underline;
@@ -112,13 +106,6 @@ html {
 	font-size: 22px;
 	margin-bottom: 16px;
 }
-
-.titulo-tipo-franquia {
-
-}
-
-.descricao-franquia {}
-
 /* nossas franquias */
 /* text */
 
@@ -126,12 +113,6 @@ html {
 .logo {
   width: 110px;
 }
-
-.imagem-logo-header {}
-
-.imagem-logo-footer {}
-
-.quem-somos-img {}
 
 @media screen and (min-width: 768px){
 	.quem-somos-img {
@@ -305,9 +286,6 @@ html {
 	margin: 0 auto;
 }
 
-.sessao {}
-
-.quem-somos {}
 @media screen and (min-width: 768px){
   .quem-somos{
     display: flex;
@@ -369,8 +347,6 @@ html {
     margin: 0 auto;
   }
 }
-
-.contato {}
 
 .footer {
 	margin-top: 24px;
@@ -439,35 +415,24 @@ html {
 	justify-content: space-evenly;
 }
 
-.franquia {}
-
 @media screen and (min-width: 768px){
 	.franquia div{
-	display: flex;
-	justify-content: space-between;
-	padding: 0 24px;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    align-items: center;
+  }
+    .franquia div p{
+    padding-right: 0;
+  }
+    .franquia.quiosque div{
+    flex-direction: row-reverse;
+  }
+    .franquia.quiosque div p{
+    padding-right: 24px;
+    padding-left: 0;
+  }
 }
-	.franquia div p{
-	padding-right: 0;
-}
-	.franquia.quiosque div{
-	flex-direction: row-reverse;
-}
-	.franquia.quiosque div p{
-	padding-right: 24px;
-	padding-left: 0;
-}
-}
-
-.franquia.congelados {}
-
-.franquia.quiosque {}
-
-.franquia.restaurante {}
-
-.formulario-nossas-franquias {}
-
 /* nossas franquias */
 /* boxes */
 
@@ -555,10 +520,6 @@ html {
 .checkbox:first-of-type{
 	margin-top: 8px;
 }
-
-.input-checkbox {}
-
-.label-checkbox {}
 
 .button {
   background: var(--green);
