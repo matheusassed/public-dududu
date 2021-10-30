@@ -289,7 +289,7 @@ html {
   padding: 84px 0;
   background: var(--red);
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   transition: right ease-in .3s;
   z-index: 2;
