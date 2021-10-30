@@ -45,7 +45,9 @@ html {
 
 @media screen and (min-width: 768px){
 	.titulo{
-		max-width: 590px;
+		width: 100%;
+		max-width: 1200px;
+		align-self: center;
 	}
 }
 
@@ -207,6 +209,13 @@ html {
   position: absolute;
   width: 100%;
   top: 0;
+}
+
+@media screen and (min-width: 768px){
+	.menu {
+		max-width: 1200px;
+		align-self: center;
+	}
 }
 
 .handle-menu {
